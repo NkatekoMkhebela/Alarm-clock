@@ -71,15 +71,8 @@ namespace Alarm_clock
             private bool alarmSet = false;
 
             
-            {                // Play a simple beep
-                SystemSounds.Beep.Play();
-
-                // Optionally show a message box
-                MessageBox.Show("Time's up! Alarm triggered.", "Alarm", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                // Enable the snooze button
-                btnSnooze.Enabled = true;
-            }
+            {     
+            
 
                 
 
