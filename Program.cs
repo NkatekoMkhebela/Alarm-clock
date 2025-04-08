@@ -67,11 +67,11 @@ namespace Alarm_clock
             MessageBox.Show($"Snooze activated! New alarm time: {alarmTime.ToLongTimeString()}");
 
             // Disable the snooze button until next alarm
-            btnSnooze.Enabled = 
-            private bool alarmSet = false;
+            btnSnooze.Enabled = false;
+        }
+    }
+}
 
-            
-            {     
             
 
                 
